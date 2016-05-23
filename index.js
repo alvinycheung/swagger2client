@@ -21,7 +21,7 @@ module.exports = function(o) {
             var op = function(data) {
                 var o = {
                     method: operation,
-                    url: basePath + '/' + path,
+                    url: basePath + path,
                     headers: headers
                 };
 
